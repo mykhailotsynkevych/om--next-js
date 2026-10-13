@@ -17,8 +17,8 @@ export default function Home() {
       </ol>
       <Link href="/contact" className="button">Open demo form</Link>
       <p className="note">
-        Tracking is not connected yet. This page and the demo form let us test
-        client-side navigation when we add GA4.
+        This page and the demo form let us test client-side navigation.
+        Measurement depends on the GTM configuration and your consent.
       </p>
     </section>
   );
