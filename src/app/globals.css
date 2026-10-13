@@ -1,0 +1,58 @@
+:root {
+  color-scheme: light;
+  color: #17243b;
+  background: #f3f6fb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.6; }
+header { background: #fff; border-bottom: 1px solid #dde4ee; }
+nav {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+a { color: #174ca5; }
+.brand { font-weight: 700; text-decoration: none; }
+main { max-width: 900px; margin: 48px auto; padding: 0 24px; }
+.panel {
+  padding: clamp(24px, 5vw, 48px);
+  border: 1px solid #dde4ee;
+  border-radius: 16px;
+  background: #fff;
+}
+h1 { font-size: clamp(28px, 5vw, 44px); line-height: 1.2; margin: 12px 0 24px; }
+p { max-width: 65ch; }
+.eyebrow { color: #174ca5; font-weight: 700; }
+ol { padding-left: 24px; margin: 24px 0; }
+li { margin: 8px 0; }
+.button {
+  display: inline-block;
+  background: #174ca5;
+  color: #fff;
+  padding: 12px 20px;
+  border: 0;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover { background: #103a81; }
+:focus-visible { outline: 3px solid #ac5200; outline-offset: 4px; }
+.note, footer { color: #526078; font-size: 14px; }
+footer { max-width: 900px; margin: 32px auto; padding: 0 24px; }
+form { display: grid; gap: 20px; max-width: 480px; margin-top: 28px; }
+label { display: grid; gap: 6px; font-weight: 700; }
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #8997ad;
+  border-radius: 6px;
+  font: inherit;
+}
+.status { padding: 12px; background: #edf6ed; border-radius: 6px; }
