@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type SubmitEvent } from "react";
+import { pushDemoFormCompleted } from "@/lib/data-layer";
 
 export default function DemoForm() {
   const [submitted, setSubmitted] = useState(false);
@@ -9,6 +10,7 @@ export default function DemoForm() {
     event.preventDefault();
     event.currentTarget.reset();
     setSubmitted(true);
+    pushDemoFormCompleted();
   }
 
   return (
