@@ -2,6 +2,14 @@
 
 A minimal Next.js App Router project for learning GA4, GTM and consent management.
 
+## Learning brief
+
+The [OM learning brief](docs/om-learning-brief.md) contains the original German
+assignment and a Russian translation. It describes the learning goals and the
+intended reusable tracking setups; the sections below describe the lab's
+current implementation. Project agent instructions link to the brief so it can
+be used as context when working on OM tracking.
+
 ## Run locally
 
 Use Node.js 20.9 or newer.
