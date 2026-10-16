@@ -26,6 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <header>
           <nav aria-label="Main navigation">
             <Link href="/" className="brand">OM Lab</Link>
+            <Link href="/shop">Demo shop</Link>
             <Link href="/contact">Demo form</Link>
           </nav>
         </header>

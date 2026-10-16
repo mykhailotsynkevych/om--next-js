@@ -19,10 +19,11 @@ npm ci
 npm run dev
 ```
 
-Open http://localhost:3000. The home page links to `/contact` using client-side
-navigation. The demo form uses browser validation and simulates submission
-locally. It has no backend or persistence; use fictional details only.
-Do not treat its simulation as a confirmed lead in a production implementation.
+Open http://localhost:3000. The site includes a simulated contact form and a
+fictional ecommerce flow at `/shop`. Both run only in the browser and have no
+backend, payment processing, or persistence; use fictional details only.
+Do not treat either simulation as a confirmed lead or purchase in a production
+implementation.
 
 ## Validate
 
@@ -52,6 +53,9 @@ control.
 4. Install GTM and configure GA4 through it, not a second standalone snippet.
 5. Verify initial and client-side page views without duplicates.
 6. Implement confirmed form submission before tracking `generate_lead`.
+7. Use `/shop` to practice the GA4 ecommerce event sequence:
+   `view_item`, `add_to_cart`, `begin_checkout`, and `purchase`. The sample
+   purchase uses a generated demo `transaction_id` and fictional product data.
 
 ## GTM and consent
 
